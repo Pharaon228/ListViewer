@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "list-viewer-client-side-solution",
+    "id": "111f3368-4236-49e5-94c6-2aa330e17c3c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "list-viewer description"
+      },
+      "longDescription": {
+        "default": "list-viewer description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "list-viewer Feature",
+        "description": "The feature that activates elements of the list-viewer solution.",
+        "id": "a2f15025-9153-4aa9-9955-e5c7934fae52",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/list-viewer.sppkg"
+  }
+}
